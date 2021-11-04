@@ -6,11 +6,21 @@
 //
 
 import SwiftUI
-
+// VI ÄNDRADE I MAIN
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            Text("***HEJSAN VÄRLDEN***")
+                .foregroundColor(Color.white)
+                .padding()
+                .background(.blue)
+                .cornerRadius(20.0)
+            
+            Spacer()
+            
+            Text("Bill kodar kod")
+        }
+        
     }
 }
 
